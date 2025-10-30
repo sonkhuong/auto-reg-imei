@@ -35,7 +35,7 @@ def load_secrets():
 secrets = load_secrets()
 
 # === CONFIG ===
-PREFIXES = ["8648680715", "8629980740", "8690180787", "8674980612"]  # danh sách prefix cần check
+PREFIXES = ["8629980740", "8690180787", "8674980612"]  # danh sách prefix cần check
 COOKIE = "serviceToken=m41w%2FCyfA%2B8gqMCiBpFSk9zjQGI8FIpZPbz4YWlngBOIDCCj%2FNrq9%2FdqzjVZseECQpTSqMfjrLBdZQdapzKsivMxvDdnjzLZyynF%2FVYQWS98xx9Qn7I9KiGblOnkn9BZxpJYIdD38NYNeauM4u8sM8dWKByrKO69y%2Bht26obOCA%3D; mUserId=LmVXjOn%2FDOl5HNwVonMqG6R6cf%2FBC2IJwDWkDAqa8w%3D"
 URL = "https://hd.c.mi.com/vn/eventapi/api/imeiexchange/getactinfo"
 HEADERS = {
@@ -46,7 +46,7 @@ HEADERS = {
 GITHUB_TOKEN = secrets["GITHUB_TOKEN"]
 GITHUB_REPO = "https://github.com/sonkhuong/auto-reg-imei.git"
 GITHUB_USER = "sonkhuong"
-INTERVAL = 1.3  # giây giữa mỗi request
+INTERVAL = 0.5  # giây giữa mỗi request
 EMAIL_REFRESH_MINUTES = 25
 
 
